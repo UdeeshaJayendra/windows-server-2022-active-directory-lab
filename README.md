@@ -126,6 +126,7 @@ Set the policy to **Enabled** and tested its effect on the domain-joined client.
 This demonstrates centralized application of user restrictions through Group Policy.
 
 **Evidence**
+### IT Workstation Policy Demonstration
 [13. IT-Workstation-Policy Group Policy is successfully restricting Control Panel access on CLIENT01.webm](https://github.com/user-attachments/assets/3a63efe7-d452-47e1-a1a1-6edbdde51d6d)
 
 ### 5. File Sharing and Access Control
@@ -151,6 +152,8 @@ Both permission layers apply to network access. Effective access is determined b
 **Evidence**
 
 <img width="1024" height="768" alt="12-companyshare-share-permissions" src="https://github.com/user-attachments/assets/2df68193-34c4-49dc-80d6-38950f06394f" />
+
+### active-directory-file-sharing-demo
 https://github.com/user-attachments/assets/18acfe0c-3581-41e9-a909-dd9bcf0e74eb
 <img width="1024" height="768" alt="14-client-shared-folder-access" src="https://github.com/user-attachments/assets/426cf2a3-a5be-4f87-8fc2-724927b8a806" />
 
