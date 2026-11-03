@@ -1,4 +1,4 @@
-# Windows Server 2022 Active Directory Administration Lab
+<img width="1920" height="923" alt="19-file-share-access-denied-testuser" src="https://github.com/user-attachments/assets/0d38de0e-916a-4458-8a15-6e406ce5a309" /># Windows Server 2022 Active Directory Administration Lab
 
 A hands-on Windows Server administration project demonstrating Active Directory Domain Services (AD DS), centralized user management, Group Policy, file-sharing permissions, security auditing, and backup and recovery using Windows Server 2022 and Windows 11.
 
@@ -85,11 +85,11 @@ Key tasks:
 
 **Evidence**
 
-![DC01 static IP configuration](evidence/03-dc01-static-ip.png)
+<img width="1024" height="768" alt="03-dc01-static-ip" src="https://github.com/user-attachments/assets/46e70309-addc-4706-9252-4fade941e922" />
 
-![Domain administrator login and domain setup](evidence/02-corp-administrator-login.png)
+<img width="1024" height="768" alt="2  Corp administrattor login" src="https://github.com/user-attachments/assets/108403ba-9566-48b9-859e-b8e648c79b0b" />
 
-![Active Directory users, groups and OUs](evidence/06-ad-users-groups-ous.png)
+<img width="1024" height="768" alt="06-ad-users-groups-ous png" src="https://github.com/user-attachments/assets/2decbc92-c5b1-41d9-aeea-d64ed857e4cd" />
 
 ### 2. Active Directory Users, Groups and Organizational Units
 
@@ -109,9 +109,9 @@ This demonstrates centralized authentication through Active Directory.
 
 **Evidence**
 
-![Successful client domain join](evidence/09-client-domain-join-success.png)
+<img width="1024" height="768" alt="09-client-domain-join-success" src="https://github.com/user-attachments/assets/4602a587-94ad-43a6-a1ca-1a76f48f78c3" />
 
-![Domain user login](evidence/10-domain-user-login.png)
+<img width="1024" height="768" alt="10-domain-user-login" src="https://github.com/user-attachments/assets/973e98ed-b821-4f73-b813-3d7d33d035cc" />
 
 ### 4. Group Policy Management
 
@@ -151,15 +151,14 @@ Both permission layers apply to network access. Effective access is determined b
 
 **Evidence**
 
-![CompanyShare permissions](evidence/12-companyshare-permissions.png)
+<img width="1024" height="768" alt="12-companyshare-share-permissions" src="https://github.com/user-attachments/assets/2df68193-34c4-49dc-80d6-38950f06394f" />
 
-![File sharing demonstration](evidence/14-active-directory-file-sharing-demo.mp4)
+ddddddddddddddddddd
+<img width="1024" height="768" alt="14-client-shared-folder-access" src="https://github.com/user-attachments/assets/426cf2a3-a5be-4f87-8fc2-724927b8a806" />
 
-![Client shared-folder access](evidence/14-client-shared-folder-access.png)
+<img width="1024" height="768" alt="14-companyshare-test-file-created" src="https://github.com/user-attachments/assets/a72c9d4a-c2c6-4ee1-9ed4-5131a4a66090" />
 
-![CompanyShare test file created](evidence/14-companyshare-test-file-created.png)
-
-![Unauthorized test-user access denied](evidence/19-file-share-access-denied-testuser.png)
+<img width="1920" height="923" alt="19-file-share-access-denied-testuser" src="https://github.com/user-attachments/assets/261f547d-c66f-42c9-ba26-89f3237d458b" />
 
 ### 6. Security Auditing and Event Logs
 
@@ -174,10 +173,8 @@ Evidence includes:
 These events demonstrate how Windows security logs can help administrators investigate account activity and monitor changes in the domain.
 
 **Evidence**
-
-![Successful logon security event](evidence/17-security-successful-logon-event.png)
-
-![User account creation security event](evidence/18-security-user-account-created-event.png)
+<img width="1920" height="923" alt="17-security-successful-logon-event" src="https://github.com/user-attachments/assets/370a59f3-9bcf-4cbb-97e9-3b327402817f" />
+<img width="1920" height="923" alt="18-security-user-account-created-event" src="https://github.com/user-attachments/assets/5bbe65a1-3b64-4759-8dcf-0627ba769a82" />
 
 ### 7. Windows Server Backup
 
@@ -193,9 +190,8 @@ Verified the available backup version and its recoverable contents using `wbadmi
 
 **Evidence**
 
-![Backup disk ready](evidence/20-dc01-backup-disk-ready.png)
-
-![Backup creation and verification](evidence/21-dc01-backup-creation-and-verification.png)
+<img width="1152" height="864" alt="20-dc01-backup-disk-ready" src="https://github.com/user-attachments/assets/3d6c0227-47c5-40cc-ac9c-d8ab627f3962" />
+<img width="1152" height="864" alt="21-dc01-backup-creation-and-verification" src="https://github.com/user-attachments/assets/ad354951-166a-4129-86c8-25dc11f12e1c" />
 
 ### 8. Actual File Recovery Test
 
@@ -221,8 +217,7 @@ The Windows Server Backup recovery command reported successful completion. Verif
 | SHA-256 comparison | Matching hashes |
 
 **Evidence**
-
-![Backup file recovery test](evidence/23-backup-file-recovery-test.png)
+<img width="1280" height="720" alt="23-backup-file-recovery-test png" src="https://github.com/user-attachments/assets/83ed4498-caee-4f32-a956-b40c622e9818" />
 
 This validates file-level recovery from the backup. It does **not** establish that a full System State or bare-metal recovery has been successfully tested.
 
@@ -253,30 +248,6 @@ Potential future improvements:
 - Document recovery procedures and disaster-recovery objectives.
 
 System State and bare-metal recovery have **not** been tested as part of the completed lab.
-
-## Repository Structure
-
-```text
-windows-server-2022-active-directory-lab/
-├── README.md
-└── evidence/
-    ├── 02-corp-administrator-login.png
-    ├── 03-dc01-static-ip.png
-    ├── 06-ad-users-groups-ous.png
-    ├── 09-client-domain-join-success.png
-    ├── 10-domain-user-login.png
-    ├── 12-companyshare-permissions.png
-    ├── 13-it-workstation-policy.png
-    ├── 14-active-directory-file-sharing-demo.mp4
-    ├── 14-client-shared-folder-access.png
-    ├── 14-companyshare-test-file-created.png
-    ├── 17-security-successful-logon-event.png
-    ├── 18-security-user-account-created-event.png
-    ├── 19-file-share-access-denied-testuser.png
-    ├── 20-dc01-backup-disk-ready.png
-    ├── 21-dc01-backup-creation-and-verification.png
-    └── 23-backup-file-recovery-test.png
-```
 
 *Use the filenames shown here consistently, or update the README paths to match the actual files in your repository. Only include evidence files that you have actually captured.*
 
