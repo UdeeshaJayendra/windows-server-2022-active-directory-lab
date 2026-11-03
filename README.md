@@ -154,7 +154,8 @@ Both permission layers apply to network access. Effective access is determined b
 <img width="1024" height="768" alt="12-companyshare-share-permissions" src="https://github.com/user-attachments/assets/2df68193-34c4-49dc-80d6-38950f06394f" />
 
 ### active-directory-file-sharing-demo
-https://github.com/user-attachments/assets/18acfe0c-3581-41e9-a909-dd9bcf0e74eb
+https://github.com/user-attachments/assets/a531b788-2f22-4083-aca9-e2dcb21a8a97
+
 <img width="1024" height="768" alt="14-client-shared-folder-access" src="https://github.com/user-attachments/assets/426cf2a3-a5be-4f87-8fc2-724927b8a806" />
 
 <img width="1024" height="768" alt="14-companyshare-test-file-created" src="https://github.com/user-attachments/assets/a72c9d4a-c2c6-4ee1-9ed4-5131a4a66090" />
