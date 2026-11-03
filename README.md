@@ -1,5 +1,3 @@
-# UdeeshaJayendra-windows-server-2022-active-directory-lab
-
 # Windows Server 2022 Active Directory Administration Lab
 
 A hands-on Windows Server administration project demonstrating Active Directory Domain Services (AD DS), centralized user management, Group Policy, file-sharing permissions, security auditing, and backup and recovery using Windows Server 2022 and Windows 11.
