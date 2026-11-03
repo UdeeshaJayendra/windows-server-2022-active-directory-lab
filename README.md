@@ -1,4 +1,4 @@
-<img width="1920" height="923" alt="19-file-share-access-denied-testuser" src="https://github.com/user-attachments/assets/0d38de0e-916a-4458-8a15-6e406ce5a309" /># Windows Server 2022 Active Directory Administration Lab
+# Windows Server 2022 Active Directory Administration Lab
 
 A hands-on Windows Server administration project demonstrating Active Directory Domain Services (AD DS), centralized user management, Group Policy, file-sharing permissions, security auditing, and backup and recovery using Windows Server 2022 and Windows 11.
 
